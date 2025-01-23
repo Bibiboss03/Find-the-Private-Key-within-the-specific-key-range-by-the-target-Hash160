@@ -1,7 +1,7 @@
-# Find-the-Private-Key-within-the-specific-key-range-by-the-target-Hash160
+# Find the Private Key within the specific key range by the target Hash160
 This is intended only for the BTC-Puzzle. Do not use this for any other things.
 
-> **USAGE:**
+# **USAGE:**
 
 Before you run the Python file, make sure to edit the start and end range of the private key you are trying to search.
 
@@ -24,13 +24,14 @@ target_hash = "739437bb3dd6d1983e66629c5f08c70e52769371"  # Replace this with yo
 
 
 
-> **Run the script:**
+# **Run the script:**
 python privkey.py
 
 ![Capture](https://github.com/user-attachments/assets/41c0c24b-182c-4780-acf9-d9249dca943c)
 
 
-> **Explanation:**
+
+# **Explanation:**
 Range: Iterates from start range to end range (hex range).
 
 SHA-256: Hashes each private key in hexadecimal format.
@@ -41,14 +42,14 @@ Matching: Compares the result with the provided target_hash.
 
 
 
-> **Execution:**
+# **Execution:**
 
 Run this script. It will begin iterating through your range and computing Hash160 for each private key.
 
 If it finds a match, it will print the corresponding private key.
 
 
-**ENJOY!**
+# **ENJOY!**
 
 
 
